@@ -1,0 +1,25 @@
+.mcontacto {
+    width: 70%;
+    margin: auto;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 400px;
+    justify-items: center;
+    padding-top: 80px;
+    
+    .nodudes{
+        font-size: 25px;
+        padding-left: 200px;
+        
+        .soluciones{
+            padding-top: 20px;
+            font-size: 20px;
+            padding-left: 200px;
+            
+            .datos{
+                padding-right: 300px;
+            }
+        }
+    }
+}
